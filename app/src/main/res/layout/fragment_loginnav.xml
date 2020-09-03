@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFBF2"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".loginnav">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/calibri"
+        android:layout_marginStart="10dp"
+        android:text="@string/loginfrag_h1"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/usrinp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:background="@drawable/edittext_des"
+        android:hint="@string/usrtxt"
+        android:autofillHints="@string/usrtxt"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/usrinp2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:autofillHints="@string/pwdtxt"
+        android:background="@drawable/edittext_des"
+        android:ems="10"
+        android:hint="@string/pwdtxt"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usrinp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        android:text="@string/subbut"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usrinp2" />
+
+    <Button
+        android:id="@+id/cracc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        android:text="@string/crnbut"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

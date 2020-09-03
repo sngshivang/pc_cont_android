@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFBF2"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".filetransfer">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/calibri"
+            android:layout_marginStart="10dp"
+            android:text="@string/ft_h1"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ListView
+            android:id="@+id/filelst"
+            android:layout_width="330dp"
+            android:layout_height="352dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/addfiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        android:text="@string/ft_b1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filelst" />
+
+    <Button
+        android:id="@+id/remfiles"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        android:text="@string/ft_b2"
+        app:layout_constraintStart_toEndOf="@id/addfiles"
+        app:layout_constraintTop_toBottomOf="@+id/filelst" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        android:text="@string/ft_b3"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/remfiles"
+        app:layout_constraintTop_toBottomOf="@+id/filelst" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

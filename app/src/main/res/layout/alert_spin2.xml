@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        android:layout_width="0dp"
+        style="?android:attr/progressBarStyle"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"/>
+
+    <TextView
+        android:id="@+id/headmsg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:text="@string/univ_na"
+        android:textSize="15sp" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/clinfo"
+            android:title="@string/navl_h1" />
+        <item
+            android:id="@+id/sendcom"
+            android:title="@string/navl_h2" />
+        <item
+            android:id="@+id/filup"
+            android:title="@string/navl_h3"/>
+        <item
+            android:id="@+id/proclist"
+            android:title="@string/navl_h4"/>
+        <item
+            android:id="@+id/acpicom"
+            android:title="@string/navl_h6"/>
+        <item
+            android:id="@+id/about"
+            android:title="@string/navl_h5"/>
+
+    </group>
+</menu>

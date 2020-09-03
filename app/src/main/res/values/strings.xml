@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">PC Controller</string>
+    <string name="app_name_pub">Remote PC Controller</string>
+    <string name="usrnme">Username</string>
+    <string name="pwd">Password</string>
+    <string name="usrtxt">Enter Username</string>
+    <string name="pwdtxt">Enter Password</string>
+    <string name="subbut">Submit</string>
+    <string name="crnbut">Create New Account</string>
+    <string name="combnme">Username, Password &amp; Email</string>
+    <string name="emtxt">Enter E-Mail</string>
+    <string name="noclnt">There is currently no Windows Client online that has been linked to this account. Please login with the same ID in your PC and click Retry.</string>
+    <string name="retbut">RETRY</string>
+    <string name="dash_head">Failed to load OS Info</string>
+    <string name="dash_uinfo">Failed to load user Info</string>
+    <string name="dash_stat">STATUS: IDLE</string>
+    <string name="loginfrag_h1">Please enter the information to login</string>
+    <string name="osinfo_h1">Information about the client</string>
+    <string name="osinfo_h2">Operating System</string>
+    <string name="osinfo_h3">System ID</string>
+    <string name="osinfo_h4">Authorized User</string>
+    <string name="osinfo_h5">Central Processor</string>
+    <string name="univ_na">Not Available</string>
+    <string name="com_h1">Available Control Operations</string>
+    <string name="com_h2">Send Shutdown Command</string>
+    <string name="com_h3">Send Restart Command</string>
+    <string name="com_h4">Send Sleep Command</string>
+    <string name="com_b1">SHUTDOWN</string>
+    <string name="com_b2">RESTART</string>
+    <string name="com_b3">SLEEP</string>
+    <string name="nocl_h1">There is no client logged in currently at this moment. Please make sure your client is logged in and hit retry.</string>
+    <string name="nocl_h2">Checking client login status. Please wait&#8230;</string>
+    <string name="nocl_b1">RETRY</string>
+    <string name="relaycmd_h1">Enter the commands to relay (Max 50)</string>
+    <string name="relaycmd_b1">Send</string>
+    <string name="relaycmd_h3">Enter Commands with Newline</string>
+    <string name="relaycmd_h2">Please make to leave a line gap between the commands and the commands are in order.</string>
+    <string name="ft_h1">File transfer to client</string>
+    <string name="ft_b1">Add Files</string>
+    <string name="ft_b2">Remove Files</string>
+    <string name="ft_b3">UPLOAD</string>
+    <string name="progup_h1">Upload Progress</string>
+    <string name="progup_h2">\/ 100</string>
+    <string name="progup_h3">Process File Number: </string>
+    <string name="na">NA</string>
+    <string name="pmanip_h1">Processes running on the client</string>
+    <string name="pmanip_b1">Refresh List</string>
+    <string name="head_h1">Welcome User</string>
+    <string name="navl_h1">Client Info</string>
+    <string name="navl_h2">Send command list</string>
+    <string name="navl_h3">File Upload</string>
+    <string name="navl_h4">Process list</string>
+    <string name="navl_h5">About</string>
+    <string name="navl_h6">Send ACPI Commands</string>
+    <string name="about_h1">About</string>
+    <string name="about_t1">Remote PC Controller is an application to control your remote PC (Windows or Linux) seamlessly with this Android app.</string>
+    <string name="about_t2">Final Year Project for KNIT Sultanpur.\nKumar Shivang(16230)\nAthrva Upadhyay(16216)</string>
+    <string name="about_t3">Version 0.1.1</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="6dp">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/filenme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/checkBox"
+        android:layout_marginStart="8dp"
+        android:textColor="#75A994"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filepath"
+        android:layout_width="fill_parent"
+        android:layout_height="20sp"
+        android:layout_below="@id/filenme"
+        android:ellipsize="marquee"
+        android:lines="3"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textColor="#3D8629"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/fileattr"
+        android:layout_width="fill_parent"
+        android:layout_height="20sp"
+        android:layout_below="@id/filepath"
+        android:ellipsize="marquee"
+        android:lines="3"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textAlignment="textEnd"
+        android:textColor="#3D8629"
+        android:textSize="10sp" />
+
+</RelativeLayout>

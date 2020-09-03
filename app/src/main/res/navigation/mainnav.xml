@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainnav"
+    app:startDestination="@id/loginnav">
+
+    <fragment
+        android:id="@+id/loginnav"
+        android:name="com.example.shivang.contrify.loginnav"
+        android:label="fragment_loginnav"
+        tools:layout="@layout/fragment_loginnav" >
+        <action
+            android:id="@+id/action_loginnav_to_noclient"
+            app:destination="@id/noclient" />
+        <action
+            android:id="@+id/action_loginnav_to_signup"
+            app:destination="@id/signup" />
+    </fragment>
+    <fragment
+        android:id="@+id/signup"
+        android:name="com.example.shivang.contrify.signup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signup_to_loginnav"
+            app:destination="@id/loginnav" />
+    </fragment>
+    <fragment
+        android:id="@+id/osinfo"
+        android:name="com.example.shivang.contrify.osinfo"
+        android:label="fragment_osinfo"
+        tools:layout="@layout/fragment_osinfo" />
+    <fragment
+        android:id="@+id/commands"
+        android:name="com.example.shivang.contrify.commands"
+        android:label="fragment_commands"
+        tools:layout="@layout/fragment_commands" />
+    <fragment
+        android:id="@+id/noclient"
+        android:name="com.example.shivang.contrify.noclient"
+        android:label="fragment_noclient"
+        tools:layout="@layout/fragment_noclient" />
+</navigation>
